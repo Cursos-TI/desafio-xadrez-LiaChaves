@@ -60,8 +60,8 @@ case 1:
     printf("O Bispo está na C1!\nEle vai para qual direção?\n");
     printf("[1] Diagonal Direita!\n");
     printf("[2] Diagonal Esquerda!\n");
-    scanf("%d", &torre);
-    switch (torre)
+    scanf("%d", &bispo);
+    switch (bispo)
     {
     case 1:
     case 2:
