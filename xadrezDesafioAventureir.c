@@ -60,8 +60,8 @@ case 1:
     printf("O Bispo está na C1!\nEle vai para qual direção?\n");
     printf("[1] Diagonal Direita!\n");
     printf("[2] Diagonal Esquerda!\n");
-    scanf("%d", &bispo);
-    switch (bispo)
+    scanf("%d", &torre);
+    switch (torre)
     {
     case 1:
     case 2:
@@ -73,7 +73,7 @@ case 1:
       { printf("Cima!\n");
          bi++;
          
-      } while (bi < 7 && bi > 0);printf("Seu Bispo foi para Cima!");}
+      } while (bi < 7 && bi > 0);printf("Seu Bispo foi para Cima!\n");}
       break; }
     break;
     case 3:
