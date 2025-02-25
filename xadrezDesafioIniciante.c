@@ -67,12 +67,12 @@ case 1:
       printf("Numéros negativo para Baixo e positivos para Cima!\n");
       scanf("%d", &bi);
       if(bi <= 0){printf("Se o Bispo voltar, sai do tabuleiro!\n");}
-      else {bi = 7 - bi;
+      else if (bi > 0) {bi = 7 - bi;
       do
       { printf("Cima\n");
-         bi++;
-         
-      } while (bi < 7 && bi > 0);printf("Seu Bispo foi para Cima!");}
+         bi++;} while (bi < 7 && bi > 0);
+      printf("Seu Bispo foi para Cima!\n");
+      }
       break; }
     break;
     case 3:
